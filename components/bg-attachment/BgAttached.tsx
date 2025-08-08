@@ -6,8 +6,7 @@ const BgAttached = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-20"
         style={{
-          backgroundImage:
-            "url('/ai1.jpg')",
+          backgroundImage: "url('/ai1.jpg')",
           backgroundAttachment: "fixed", // Parallax effect
           filter: "brightness(0.8)", // Dark overlay for text readability
         }}

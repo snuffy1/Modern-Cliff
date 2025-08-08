@@ -6,6 +6,7 @@
 html,
 body {
   @apply bg-black text-white font-sans antialiased;
+  scrollbar-width: none;
 }
 
 @font-face {

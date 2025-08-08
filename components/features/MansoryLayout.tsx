@@ -12,7 +12,7 @@ interface Feature {
   gridClass: string;
 }
 
-const CliffFeatures: React.FC = () => {
+const MansoryLayout: React.FC = () => {
   const features: Feature[] = [
     {
       title: "UV 400 Protection",
@@ -68,7 +68,7 @@ const CliffFeatures: React.FC = () => {
           opacity: 1,
           duration: 0.3,
           ease: "none",
-          stagger: 0.1,
+          stagger: 0.6,
           scrollTrigger: {
             trigger: ".grid-container",
             start: "top 80%",
@@ -108,7 +108,7 @@ const CliffFeatures: React.FC = () => {
           </h2>
         </div>
 
-        <div className="grid-container grid h-auto md:h-[80rem] grid-cols-2 grid-rows-6 gap-4 md:gap-8">
+        <div className="grid-container grid h-auto md:h-[80rem] grid-cols-2 grid-rows-6  md:gap-2">
           {features.map((feature: Feature, index: number) => (
             <div
               key={index}
@@ -142,4 +142,4 @@ const CliffFeatures: React.FC = () => {
   );
 };
 
-export default CliffFeatures;
+export default MansoryLayout;
