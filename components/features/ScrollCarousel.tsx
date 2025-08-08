@@ -50,32 +50,28 @@ export default function ScrollCarousel() {
       id: 1,
       category: "Single Vision",
       title: "You can do more with AI.",
-      bgImage:
-        "https://cliffeyewear.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-02-at-3.49.12-PM.jpeg",
+      bgImage: "/c1.jpeg",
       isSmaller: true,
     },
     {
       id: 2,
       category: "Technologys",
       title: "Enhance your productivity.",
-      bgImage:
-        "https://cliffeyewear.com/wp-content/uploads/2024/12/premium_photo-1664477083130-9566b4d74b62-transformed.webp",
+      bgImage: "c2.jpeg",
       isSmaller: false,
     },
     {
       id: 3,
       category: "Progression",
       title: "Launching the new Apple Vision Pro.",
-      bgImage:
-        "https://cliffeyewear.com/wp-content/uploads/2024/12/5164eb83-660b-459e-83eb-cff8ffd0088e.jpg",
+      bgImage: "/c3.jpeg",
       isSmaller: false,
     },
     {
       id: 4,
       category: "Product",
       title: "Maps for your iPhone 15 Pro Max.",
-      bgImage:
-        "https://cliffeyewear.com/wp-content/uploads/2025/02/cliff-stock-lens-1.png",
+      bgImage: "/c4.jpeg",
       isSmaller: false,
     },
     {

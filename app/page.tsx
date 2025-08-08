@@ -4,7 +4,6 @@ import Demo from "@/components/Demo";
 // import Hero from "@/components/Hero";
 import BgAttached from "@/components/bg-attachment/BgAttached";
 import Glass from "@/components/Glass";
-import CliffFeatures from "@/components/features/CliffFeatures";
 import MagicReveal from "@/components/MagicReveal";
 import Footer from "@/components/Footer";
 import ScrollCarousel from "@/components/features/ScrollCarousel";
@@ -30,12 +29,12 @@ const Page = () => {
             <Glass />
           </div>
           <Demo />
-          <BgAttached />
+          <BgAttached bgImage="./Divider/divider.png" />
           {/* <CliffFeatures /> */}
           <MansoryLayout />
           <MagicReveal />
           <ScrollCarousel />
-          <BgAttached />
+          <BgAttached bgImage="./Divider/divider2.png" />
           <div className="z-20">
             <Footer />
           </div>
