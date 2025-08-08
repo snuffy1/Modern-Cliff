@@ -108,7 +108,7 @@ const MansoryLayout: React.FC = () => {
           </h2>
         </div>
 
-        <div className="grid-container grid h-auto md:h-[80rem] grid-cols-2 grid-rows-6  md:gap-2">
+        <div className="grid-container grid h-auto md:h-[80rem] grid-cols-2 grid-rows-6  md:gap-44">
           {features.map((feature: Feature, index: number) => (
             <div
               key={index}

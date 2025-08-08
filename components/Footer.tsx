@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-transparent h-[100vh] backdrop-blur-sm text-white py-16 ">
-      <div className="max-w-7xl mx-auto">
+    <footer className="bg-transparent h-[100vh] backdrop-blur-sm flex items-end text-white  ">
+      <div className="max-w-7xl mx-auto h-fit ">
         <h1 className="text-9xl mt-8 font-bold font-ramro text-center tracking-[1.1rem]">
           STAY IN TOUCH
         </h1>
@@ -79,7 +79,7 @@ const Footer = () => {
               width={190}
               height={100}
             />
-            <button className="px-6 py-3  rounded-lg bg-[#E1AA12] text-white font-medium hover:bg-[#C9961A] active:scale-95 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#E1AA12]/50 flex items-center justify-center gap-2">
+            <button className="px-6 py-3  rounded-full bg-[#E1AA12] text-white font-medium hover:bg-[#C9961A] active:scale-95 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#E1AA12]/50 flex items-center justify-center gap-2">
               Contact us today
               <svg
                 className="w-4 h-4"
@@ -108,16 +108,20 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-800 flex w-full mt-10 justify-between">
+        <div className="border-t border-gray-800 flex w-full mt-10 justify-between p-4">
           <p className="text-gray-400 text-sm">
-            © All Rights Reserved | Awake Nepal Pvt. Ltd.
+            ©2025 Cliff. All Rights Reserved
           </p>
           <div className="flex items-center mt-4 md:mt-0">
             <span className="text-gray-400 text-sm mr-2">
               Design & Developed by:
             </span>
-            <span className="text-white font-semibold">web</span>
-            <span className="text-blue-400 font-semibold">x</span>
+            <img
+              src="https://www.webxnep.com/logo/logo.svg"
+              alt="asa"
+              height={20}
+              width={50}
+            />
           </div>
         </div>
       </div>

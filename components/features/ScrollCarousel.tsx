@@ -78,8 +78,14 @@ export default function ScrollCarousel() {
       id: 5,
       category: "iOS",
       title: "Photography just got better.",
-      bgImage:
-        "https://cliffeyewear.com/wp-content/uploads/2024/08/Bluesafe-scaled.jpg",
+      bgImage: "/c5.jpeg",
+      isSmaller: false,
+    },
+    {
+      id: 6,
+      category: "iOS",
+      title: "Photography just got better.",
+      bgImage: "/c6.jpeg",
       isSmaller: false,
     },
   ];
@@ -88,7 +94,7 @@ export default function ScrollCarousel() {
     <div className="bg-transparent">
       {/* Horizontal scroll section */}
       <section ref={containerRef} className="relative overflow-hidden">
-        <h1 className="text-7xl text-center font-light font-ramro mt-4">
+        <h1 className="text-4xl md:text-5xl font-normal font-ramro text-white mb-4 text-center mt-10">
           Why <span className="text-yellow-400"> Choose CliffLens?</span>
         </h1>
         <div

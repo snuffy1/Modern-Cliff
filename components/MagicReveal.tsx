@@ -89,7 +89,7 @@ export default function MagicReveal() {
       <div className="absolute inset-0 reveal-layer-second overflow-hidden">
         <div className="relative w-full h-full">
           <Image
-            src="/didi.jpg"
+            src="/circle.png"
             alt="Revealed Image"
             fill
             objectFit="cover"

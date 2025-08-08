@@ -9,6 +9,8 @@ import Footer from "@/components/Footer";
 import ScrollCarousel from "@/components/features/ScrollCarousel";
 import MansoryLayout from "@/components/features/MansoryLayout";
 import Loading from "@/components/PreLoader/Loading";
+import CliffFeatures from "@/components/features/CliffFeatures";
+import Feature from "@/components/features/Feature";
 
 const Page = () => {
   const [loading, setLoading] = React.useState(true);
@@ -30,11 +32,12 @@ const Page = () => {
           </div>
           <Demo />
           <BgAttached bgImage="./Divider/divider.png" />
+          <Feature />
           {/* <CliffFeatures /> */}
-          <MansoryLayout />
+          {/* <MansoryLayout /> */}
           <MagicReveal />
           <ScrollCarousel />
-          <BgAttached bgImage="./Divider/divider2.png" />
+          <BgAttached bgImage="./ai1.jpg" />
           <div className="z-20">
             <Footer />
           </div>
